@@ -7,6 +7,9 @@ namespace poo_csharp
     {
         static void Main(string[] args)
         {
+
+            Conta c1;
+
             Console.Write("Insira o número da conta com 4 dígitos: ");
             string numConta = Console.ReadLine();
 
@@ -28,8 +31,6 @@ namespace poo_csharp
                 deposito = char.Parse(Console.ReadLine());
             }
 
-            Conta c1 = new Conta(nome, numConta);
-
             if (deposito == 's')
             {
                 Console.Write("Digite o valor do depósito inicial: ");
@@ -37,6 +38,8 @@ namespace poo_csharp
 
                 c1 = new Conta(nome, numConta, valor);
             }
+
+            c1 = new Conta(nome, numConta);
 
             ExibirDadosDaConta(c1);
 
