@@ -33,10 +33,8 @@ namespace poo_csharp
 
         public override string ToString()
         {
-            return
-                "Titular: " + Nome + " "
-                + "Número: " + Numero + " "
-                + "Saldo: R$ " + Saldo.ToString("F2", CultureInfo.InvariantCulture);
+            return $"\tTitular: {Nome}\n \tNúmero: {Numero}\n \tSaldo: R${Saldo.ToString("F2", CultureInfo.InvariantCulture)}";
+
         }
     }
 }

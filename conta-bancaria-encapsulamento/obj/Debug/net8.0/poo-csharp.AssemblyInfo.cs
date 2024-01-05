@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("poo-csharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e314149ad62ec2a07372473d892fc389949c9794")]
 [assembly: System.Reflection.AssemblyProductAttribute("poo-csharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("poo-csharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
